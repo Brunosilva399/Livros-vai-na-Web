@@ -1,0 +1,118 @@
+.BackgroundInicio
+{
+    width: 100%;
+    background-image: url('../../assets/imagemFundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h2{
+        height: 100vh;
+        color: white;
+        font-size: 32px;
+        padding-left: 10%;
+        padding-top: 18%;
+        width: 38%;
+    }
+}
+
+.caixa{
+    padding-bottom: 8%;
+
+    .paragrafo
+    {
+        height:18vh;
+        font-size: 40px;
+        padding-left: 7%;
+        padding-top: 3%;
+        color: #005695;
+    }
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.card
+{
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #0157944D;
+    border-radius: 10px;
+    border: 2px solid blue;
+
+    p
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .BackgroundInicio
+    {
+        background-image: url('../../assets/imagemMobile.png');
+        background-size: auto;
+        background-repeat: no-repeat;
+        width: 100vw;
+
+        h2{
+            font-size: 26px;
+            width: 90%;
+            height: 40vh;
+            padding-top: 30%;
+            text-align: center;
+        }
+    }
+
+    .caixa{
+        width: 100%;
+    
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 67vw;
+        height: 30vh;
+        margin: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 378px){
+    .BackgroundInicio{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .caixa{
+
+        .paragrafo{
+            font-size: 32px;
+        width: 120vw;
+     }
+ }
+
+    .card{
+        width: 70vw;
+        height: 40vh;
+
+        img{
+            width: 30%;
+        }
+    }
+}
+

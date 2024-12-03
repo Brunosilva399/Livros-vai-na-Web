@@ -1,0 +1,71 @@
+.contact{
+    background-color: #005695;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw ;
+    margin-right:20px ;
+}
+
+.telefone{
+    width: 18vw;
+    color: white;
+    text-align: center;
+}
+
+.final{
+    background-color: black;
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .redesSociais{
+        width: 70%;
+        margin: 0;
+    }
+
+    .final{
+        text-align: center;
+
+        p{
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 378px){
+    .telefone{
+        width: 50%;
+    }
+
+    .redesSociais{
+        width: 70%;
+        align-items: center;
+    }
+
+    .final{
+        height: 10vh;
+       
+        p{
+            width: 100%;
+        }
+    }
+
+}
