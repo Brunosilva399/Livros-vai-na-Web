@@ -1,4 +1,4 @@
-import s from './Footer.module.scss'
+import s from './footer.module.scss'
 import facebook from '../../assets/facebook.png'
 import x from '../../assets/x.png'
 import youtube from '../../assets/youtube.png'
