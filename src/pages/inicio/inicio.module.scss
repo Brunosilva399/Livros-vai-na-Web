@@ -4,13 +4,14 @@
     background-image: url('../../assets/imagemFundo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 70vh;
     
     h2{
         height: 100vh;
         color: white;
-        font-size: 32px;
+        font-size: 33px;
         padding-left: 10%;
-        padding-top: 18%;
+        padding-top: 14%;
         width: 38%;
     }
 }
@@ -62,6 +63,7 @@
         background-size: auto;
         background-repeat: no-repeat;
         width: 100vw;
+        height: 40vh;
 
         h2{
             font-size: 26px;
@@ -74,7 +76,11 @@
 
     .caixa{
         width: 100%;
-    
+
+        .paragrafo{
+            font-size: 33px;
+            padding-top: 10%;
+        }
     }
 
     .cards{
@@ -96,6 +102,10 @@
     .BackgroundInicio{
         width: 100vw;
         height: 50vh;
+
+        h2{
+            font-size: 20px;
+        }
     }
 
     .caixa{
