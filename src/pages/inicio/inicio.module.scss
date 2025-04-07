@@ -55,6 +55,36 @@
     }
 }
 
+@media screen and (max-width: 378px){
+    .BackgroundInicio{
+        width: 90vw;
+        height: 50vh;
+
+        h2{
+            font-size: 17px;
+        }
+    }
+
+    .caixa{
+
+        .paragrafo{
+            font-size: 32px;
+        width: 120vw;
+     }
+ }
+
+    .card{
+        width: 70vw;
+        height: 40vh;
+
+        img{
+            width: 30%;
+        }
+    }
+}
+
+
+
 @media screen and (max-width:768px)
 {
     .BackgroundInicio
@@ -97,32 +127,3 @@
     }
 
 }
-
-@media screen and (max-width: 378px){
-    .BackgroundInicio{
-        width: 100vw;
-        height: 50vh;
-
-        h2{
-            font-size: 20px;
-        }
-    }
-
-    .caixa{
-
-        .paragrafo{
-            font-size: 32px;
-        width: 120vw;
-     }
- }
-
-    .card{
-        width: 70vw;
-        height: 40vh;
-
-        img{
-            width: 30%;
-        }
-    }
-}
-
